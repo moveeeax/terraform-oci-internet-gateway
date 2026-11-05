@@ -8,7 +8,7 @@ the internet.
 
 ```hcl
 module "internet_gateway" {
-  source = "github.com/moveeeax/terraform-oci-internet-gateway"
+  source = "github.com/moveeeax/terraform-oci-internet-gateway?ref=v1.0.0"
 
   compartment_id = var.compartment_id
   vcn_id         = var.vcn_id
