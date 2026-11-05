@@ -87,3 +87,7 @@ module itself still only requires >= 1.5.
 ## License
 
 [MIT](LICENSE)
+
+---
+
+**Archived on 2026-11-05.** merge into terraform-oci-vcn: single-resource pass-through of oci_core_internet_gateway with no logic; gateways are created with the VCN in practice. The scope moves to [terraform-oci-vcn](https://github.com/moveeeax/terraform-oci-vcn/issues/3).
